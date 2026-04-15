@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Reports and local-generated files
+apply-flow-deadline-report.json
+apply-link-deadline-report.json
+verification-report.json
+verification-overrides.json
+
+# Node
+node_modules/

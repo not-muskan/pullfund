@@ -1,0 +1,809 @@
+{
+  "generated_at": "2026-04-15T14:40:28.419Z",
+  "summary": {
+    "total": 56,
+    "ok": 45,
+    "http_error": 8,
+    "fetch_failed": 3,
+    "no_url": 0,
+    "closure_signals": 5
+  },
+  "suspicious": [
+    {
+      "name": "Newchip Accelerator",
+      "type": "Incubator",
+      "apply_url": "https://newchip.com/",
+      "status": "FETCH_FAILED",
+      "error": "fetch failed",
+      "unreachable": true
+    },
+    {
+      "name": "Maine Technology Institute",
+      "type": "Incubator",
+      "apply_url": "https://www.mainetechnology.org/",
+      "status": "HTTP_ERROR",
+      "http_status": 403,
+      "final_url": "https://www.mainetechnology.org/",
+      "title": "Attention Required! | Cloudflare",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Venture Catalysts",
+      "type": "Incubator",
+      "apply_url": "https://venturecatalysts.in/",
+      "status": "HTTP_ERROR",
+      "http_status": 406,
+      "final_url": "https://venturecatalysts.in/",
+      "title": "Not Acceptable!",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "IIT Mandi Catalyst",
+      "type": "Incubator",
+      "apply_url": "https://www.catalystiitmandi.com/",
+      "status": "FETCH_FAILED",
+      "error": "fetch failed",
+      "unreachable": true
+    },
+    {
+      "name": "SAP.iO",
+      "type": "Incubator",
+      "apply_url": "https://sap.io/",
+      "status": "FETCH_FAILED",
+      "error": "fetch failed",
+      "unreachable": true
+    },
+    {
+      "name": "Cyberport Hong Kong",
+      "type": "Incubator",
+      "apply_url": "https://www.cyberport.hk/",
+      "status": "HTTP_ERROR",
+      "http_status": 403,
+      "final_url": "https://www.cyberport.hk/",
+      "title": "Attention Required! | Cloudflare",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Start-Up Chile",
+      "type": "Accelerator",
+      "apply_url": "https://startupchile.org/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://startupchile.org/",
+      "title": "Start-Up Chile &#8211; We SUPport founders beyond businesses",
+      "closure_signals": [
+        "application(s)? closed"
+      ],
+      "unreachable": false
+    },
+    {
+      "name": "Startup India Seed Fund Scheme",
+      "type": "Grants",
+      "apply_url": "https://seedfund.startupindia.gov.in/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://seedfund.startupindia.gov.in/",
+      "title": "SISFS",
+      "closure_signals": [
+        "shut\\s*down"
+      ],
+      "unreachable": false
+    },
+    {
+      "name": "Singapore Enterprise Development Grant",
+      "type": "Grants",
+      "apply_url": "https://www.enterprisesg.gov.sg/financial-support/grants/for-local-companies/enterprise-development-grant",
+      "status": "HTTP_ERROR",
+      "http_status": 403,
+      "final_url": "https://www.enterprisesg.gov.sg/financial-support/grants/for-local-companies/enterprise-development-grant",
+      "title": "",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Amazon Saheli Accelerate Season 2",
+      "type": "Accelerator",
+      "apply_url": "https://www.startupindia.gov.in/bodo/content/sih/en/ams-application/accelerator-program.html?applicationId=690b081ee4b06dfd0cb01970",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.startupindia.gov.in/bodo/content/sih/en/ams-application/accelerator-program.html?applicationId=690b081ee4b06dfd0cb01970",
+      "title": "Startup India",
+      "closure_signals": [
+        "shut\\s*down"
+      ],
+      "unreachable": false
+    },
+    {
+      "name": "Cohort 7 Incubation Program at VJTI TBI Foundation",
+      "type": "Incubator",
+      "apply_url": "https://www.startupindia.gov.in/content/sih/en/ams-application/incubator-program.html?applicationId=69bfa088e4b0b7e5b731e883",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.startupindia.gov.in/content/sih/en/ams-application/incubator-program.html?applicationId=69bfa088e4b0b7e5b731e883",
+      "title": "Startup India",
+      "closure_signals": [
+        "shut\\s*down"
+      ],
+      "unreachable": false
+    },
+    {
+      "name": "Google for Startups Accelerator: India",
+      "type": "Accelerator",
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSe7aNTQze5Rcbkl22Igo2IVtPgRkfS0wXyWH3HXOJsW9ELSwA/viewform",
+      "status": "HTTP_ERROR",
+      "http_status": 401,
+      "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSe7aNTQze5Rcbkl22Igo2IVtPgRkfS0wXyWH3HXOJsW9ELSwA/viewform",
+      "title": "",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "WEnnovate 2.0",
+      "type": "Accelerator",
+      "apply_url": "https://forms.gle/6aD2BFBrg1vpopaRA",
+      "status": "HTTP_ERROR",
+      "http_status": 401,
+      "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSe73HS5MUQjP-YQhXGIlCttqCvxFCpJdSsdEtP2HvVF1ewRXA/viewform?usp=send_form",
+      "title": "",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Toilet Board Coalition Accelerator 2027",
+      "type": "Accelerator",
+      "apply_url": "https://www.f6s.com/toilet-board-coalition-accelerator-2027/apply",
+      "status": "HTTP_ERROR",
+      "http_status": 405,
+      "final_url": "https://www.f6s.com/toilet-board-coalition-accelerator-2027/apply",
+      "title": "Checking your browser",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "MG Developer Program and Grant Season 6.0",
+      "type": "Grants",
+      "apply_url": "https://www.startupindia.gov.in/content/sih/en/ams-application/accelerator-program.html?applicationId=69ae994fe4b0b7e5b72b9dd4",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.startupindia.gov.in/content/sih/en/ams-application/accelerator-program.html?applicationId=69ae994fe4b0b7e5b72b9dd4",
+      "title": "Startup India",
+      "closure_signals": [
+        "shut\\s*down"
+      ],
+      "unreachable": false
+    },
+    {
+      "name": "Entrepreneurs First (EF) Bangalore Fall 26",
+      "type": "Incubator",
+      "apply_url": "https://apply.joinef.com/app/bangalore-fall/",
+      "status": "HTTP_ERROR",
+      "http_status": 403,
+      "final_url": "https://apply.joinef.com/app/bangalore-fall/",
+      "title": "Attention Required! | Cloudflare",
+      "closure_signals": [],
+      "unreachable": false
+    }
+  ],
+  "results": [
+    {
+      "name": "Venture Kick",
+      "type": "Incubator",
+      "apply_url": "https://www.venturekick.ch/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.venturekick.ch/",
+      "title": "Venture Kick - 1 Million Plus to kick your startup to success",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Newchip Accelerator",
+      "type": "Incubator",
+      "apply_url": "https://newchip.com/",
+      "status": "FETCH_FAILED",
+      "error": "fetch failed",
+      "unreachable": true
+    },
+    {
+      "name": "TIPS Program",
+      "type": "Incubator",
+      "apply_url": "https://www.k-startup.go.kr/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.k-startup.go.kr/",
+      "title": "창업진흥원, K-Startup 바로가기",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "VentureOut",
+      "type": "Incubator",
+      "apply_url": "https://ventureoutny.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://ventureoutny.com/",
+      "title": "Home",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Maine Technology Institute",
+      "type": "Incubator",
+      "apply_url": "https://www.mainetechnology.org/",
+      "status": "HTTP_ERROR",
+      "http_status": 403,
+      "final_url": "https://www.mainetechnology.org/",
+      "title": "Attention Required! | Cloudflare",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Innovation Works",
+      "type": "Incubator",
+      "apply_url": "https://www.innovationworks.org/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.innovationworks.org/",
+      "title": "Home | Innovation Works",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "AGORANOV",
+      "type": "Incubator",
+      "apply_url": "https://www.agoranov.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.agoranov.com/",
+      "title": "Accueil Agoranov",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Venture Catalysts",
+      "type": "Incubator",
+      "apply_url": "https://venturecatalysts.in/",
+      "status": "HTTP_ERROR",
+      "http_status": 406,
+      "final_url": "https://venturecatalysts.in/",
+      "title": "Not Acceptable!",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Tenity",
+      "type": "Incubator",
+      "apply_url": "https://www.tenity.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.tenity.com/",
+      "title": "Tenity | Global Innovation Partner for Startups &amp; Corporates",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "IIT Mandi Catalyst",
+      "type": "Incubator",
+      "apply_url": "https://www.catalystiitmandi.com/",
+      "status": "FETCH_FAILED",
+      "error": "fetch failed",
+      "unreachable": true
+    },
+    {
+      "name": "Sting",
+      "type": "Incubator",
+      "apply_url": "https://www.sting.co/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.sting.co/",
+      "title": "Sting | Sweden’s Leading Startup Accelerator",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "DMZ",
+      "type": "Incubator",
+      "apply_url": "https://dmz.torontomu.ca/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://dmz.torontomu.ca/",
+      "title": "World-Leading Tech Incubator &amp; Startup Ecosystem | DMZ",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "TechNexus Venture Collaborative",
+      "type": "Incubator",
+      "apply_url": "https://technexus.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.technexus.com/",
+      "title": "TechNexus Venture Collaborative — Corporate Innovation Meets Startup Investment",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Velocity",
+      "type": "Incubator",
+      "apply_url": "https://velocityincubator.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.velocityincubator.com/",
+      "title": "Home | Velocity",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "tech2b Inkubator",
+      "type": "Incubator",
+      "apply_url": "https://www.tech2b.at/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.tech2b.at/",
+      "title": "tech2b - der OÖ Startup Inkubator von Changemaker für Changemaker",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Eurasante",
+      "type": "Incubator",
+      "apply_url": "https://www.eurasante.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.eurasante.com/",
+      "title": "Eurasanté – L’accélérateur des innovations santé et alimentation en région Hauts-de-France",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "SAP.iO",
+      "type": "Incubator",
+      "apply_url": "https://sap.io/",
+      "status": "FETCH_FAILED",
+      "error": "fetch failed",
+      "unreachable": true
+    },
+    {
+      "name": "EvoNexus",
+      "type": "Incubator",
+      "apply_url": "https://evonexus.org/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://evonexus.org/",
+      "title": "Homepage - EvoNexus",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Cyberport Hong Kong",
+      "type": "Incubator",
+      "apply_url": "https://www.cyberport.hk/",
+      "status": "HTTP_ERROR",
+      "http_status": 403,
+      "final_url": "https://www.cyberport.hk/",
+      "title": "Attention Required! | Cloudflare",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Y Combinator",
+      "type": "Accelerator",
+      "apply_url": "https://www.ycombinator.com/apply",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.ycombinator.com/apply",
+      "title": "Apply to YC | Y Combinator",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Techstars",
+      "type": "Accelerator",
+      "apply_url": "https://www.techstars.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.techstars.com/",
+      "title": "Building the World’s Most Powerful Network for Founders | Techstars",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "500 Global",
+      "type": "Accelerator",
+      "apply_url": "https://500.co/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://500.co/",
+      "title": "500 Global | 500 Global",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Entrepreneur First",
+      "type": "Accelerator",
+      "apply_url": "https://www.joinef.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.joinef.com/",
+      "title": "Found, don&#039;t follow | Entrepreneurs First",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Startupbootcamp",
+      "type": "Accelerator",
+      "apply_url": "https://www.startupbootcamp.org/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://startupbootcamp.org/",
+      "title": "Startupbootcamp",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Rockstart",
+      "type": "Accelerator",
+      "apply_url": "https://rockstart.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://rockstart.com/",
+      "title": "Rockstart - Paving the way for purpose driven founders",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Antler",
+      "type": "Accelerator",
+      "apply_url": "https://www.antler.co/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.antler.co/",
+      "title": "Antler | Where Founders Go Further, Faster",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "SparkLabs",
+      "type": "Accelerator",
+      "apply_url": "https://www.sparklabs.co.kr/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://sparklabs.co.kr/kr/",
+      "title": "스파크랩 | SparkLabs",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "AppWorks",
+      "type": "Accelerator",
+      "apply_url": "https://www.appworks.tw/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://appworks.tw/",
+      "title": "Home - AppWorks 之初加速器",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Flat6Labs",
+      "type": "Accelerator",
+      "apply_url": "https://flat6labs.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://flat6labs.com/",
+      "title": "Flat6Labs - Home",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Start-Up Chile",
+      "type": "Accelerator",
+      "apply_url": "https://startupchile.org/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://startupchile.org/",
+      "title": "Start-Up Chile &#8211; We SUPport founders beyond businesses",
+      "closure_signals": [
+        "application(s)? closed"
+      ],
+      "unreachable": false
+    },
+    {
+      "name": "India Accelerator",
+      "type": "Accelerator",
+      "apply_url": "https://www.indiaaccelerator.co/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.indiaaccelerator.co/",
+      "title": "India Accelerator | Your Multi-Stage, Fund-Led Startup Accelerator Empowering Startups at Every Stage",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "SBIR/STTR Grants",
+      "type": "Grants",
+      "apply_url": "https://www.sbir.gov/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.sbir.gov/",
+      "title": "| SBIR",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Horizon Europe EIC Accelerator",
+      "type": "Grants",
+      "apply_url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "title": "EIC Accelerator - European Innovation Council - European Commission",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Innovate UK Smart Grants",
+      "type": "Grants",
+      "apply_url": "https://www.ukri.org/councils/innovate-uk/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.ukri.org/councils/innovate-uk/",
+      "title": "Innovate UK &#8211; UKRI",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Startup India Seed Fund Scheme",
+      "type": "Grants",
+      "apply_url": "https://seedfund.startupindia.gov.in/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://seedfund.startupindia.gov.in/",
+      "title": "SISFS",
+      "closure_signals": [
+        "shut\\s*down"
+      ],
+      "unreachable": false
+    },
+    {
+      "name": "Singapore Enterprise Development Grant",
+      "type": "Grants",
+      "apply_url": "https://www.enterprisesg.gov.sg/financial-support/grants/for-local-companies/enterprise-development-grant",
+      "status": "HTTP_ERROR",
+      "http_status": 403,
+      "final_url": "https://www.enterprisesg.gov.sg/financial-support/grants/for-local-companies/enterprise-development-grant",
+      "title": "",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Amazon Saheli Accelerate Season 2",
+      "type": "Accelerator",
+      "apply_url": "https://www.startupindia.gov.in/bodo/content/sih/en/ams-application/accelerator-program.html?applicationId=690b081ee4b06dfd0cb01970",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.startupindia.gov.in/bodo/content/sih/en/ams-application/accelerator-program.html?applicationId=690b081ee4b06dfd0cb01970",
+      "title": "Startup India",
+      "closure_signals": [
+        "shut\\s*down"
+      ],
+      "unreachable": false
+    },
+    {
+      "name": "Innovate for Impact Challenge 2026",
+      "type": "Grants",
+      "apply_url": "https://my.reviewr.com/s2/site/Innovate_for_Impact_Challenge_2026",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://my.reviewr.com/s2/site/Innovate_for_Impact_Challenge_2026",
+      "title": "Microsite Innovate for Impact Challenge 2026",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "BioNEST Incubation Program - FITT IIT Delhi",
+      "type": "Incubator",
+      "apply_url": "https://accubate.fitt-iitd.in/ext/form/3403/1/apply",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://accubate.fitt-iitd.in/ext/form/3403/1/apply",
+      "title": "Accubate",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Cohort 7 Incubation Program at VJTI TBI Foundation",
+      "type": "Incubator",
+      "apply_url": "https://www.startupindia.gov.in/content/sih/en/ams-application/incubator-program.html?applicationId=69bfa088e4b0b7e5b731e883",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.startupindia.gov.in/content/sih/en/ams-application/incubator-program.html?applicationId=69bfa088e4b0b7e5b731e883",
+      "title": "Startup India",
+      "closure_signals": [
+        "shut\\s*down"
+      ],
+      "unreachable": false
+    },
+    {
+      "name": "Google for Startups Accelerator: India",
+      "type": "Accelerator",
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSe7aNTQze5Rcbkl22Igo2IVtPgRkfS0wXyWH3HXOJsW9ELSwA/viewform",
+      "status": "HTTP_ERROR",
+      "http_status": 401,
+      "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSe7aNTQze5Rcbkl22Igo2IVtPgRkfS0wXyWH3HXOJsW9ELSwA/viewform",
+      "title": "",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "iAccelerate Batch 2",
+      "type": "Accelerator",
+      "apply_url": "https://forms.office.com/Pages/ResponsePage.aspx?id=FiJzfN84RUmX7-JGPD7wyo_XpwvEQVtEldnmCA2NyOVUMDBHM01SSDRWM1Q5OE5BRFFSMFhPSlNXTy4u",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://forms.office.com/Pages/ResponsePage.aspx?id=FiJzfN84RUmX7-JGPD7wyo_XpwvEQVtEldnmCA2NyOVUMDBHM01SSDRWM1Q5OE5BRFFSMFhPSlNXTy4u",
+      "title": "Microsoft Forms",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "FITT IIT Delhi - BIRAC LEAP Fund",
+      "type": "Grants",
+      "apply_url": "https://accubate.fitt-iitd.in/ext/form/23438/1/apply",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://accubate.fitt-iitd.in/ext/form/23438/1/apply",
+      "title": "Accubate",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Global Arts Prize for Innovation (GAP)",
+      "type": "Grants",
+      "apply_url": "https://www.globalleadersinstitute.org/gap/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.globalleadersinstitute.org/gap/",
+      "title": "Global Arts Prize | Global Leaders Institute",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "UDAAN Drone Acceleration Program - SIIC IIT Kanpur",
+      "type": "Accelerator",
+      "apply_url": "https://connect.siicincubator.com/udaan/applications",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://connect.siicincubator.com/udaan/applications",
+      "title": "UDAAN Program Cohort 3",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Healthcare Incubation Program - NSRCEL IIM Bangalore",
+      "type": "Incubator",
+      "apply_url": "https://nsrcel.accubate.app/ext/form/3384/1/apply",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://nsrcel.accubate.app/ext/form/3384/1/apply",
+      "title": "Accubate",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "WEnnovate 2.0",
+      "type": "Accelerator",
+      "apply_url": "https://forms.gle/6aD2BFBrg1vpopaRA",
+      "status": "HTTP_ERROR",
+      "http_status": 401,
+      "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSe73HS5MUQjP-YQhXGIlCttqCvxFCpJdSsdEtP2HvVF1ewRXA/viewform?usp=send_form",
+      "title": "",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "O'Shaughnessy Fellowships and Grants",
+      "type": "Grants",
+      "apply_url": "https://www.osvfellowship.com/",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.osvfellowship.com/",
+      "title": "O&#x27;Shaughnessy Fellowship - O&#x27;Shaughnessy Fellowship",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "DST NIDHI Seed Support Program - ACIC VGU Foundation",
+      "type": "Grants",
+      "apply_url": "https://connect.acicvgu.com/programs/apply/nid8539/phase-3-call-for-application-nidhi-seed-support-program-ssp",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://connect.acicvgu.com/programs/apply/nid8539/phase-3-call-for-application-nidhi-seed-support-program-ssp",
+      "title": "",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Toilet Board Coalition Accelerator 2027",
+      "type": "Accelerator",
+      "apply_url": "https://www.f6s.com/toilet-board-coalition-accelerator-2027/apply",
+      "status": "HTTP_ERROR",
+      "http_status": 405,
+      "final_url": "https://www.f6s.com/toilet-board-coalition-accelerator-2027/apply",
+      "title": "Checking your browser",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "KrishiBoot - Pitch for Incubation",
+      "type": "Incubator",
+      "apply_url": "https://aideanaarm.accubate.app/ext/form/23426/1/apply",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://aideanaarm.accubate.app/ext/form/23426/1/apply",
+      "title": "Accubate",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "MG Developer Program and Grant Season 6.0",
+      "type": "Grants",
+      "apply_url": "https://www.startupindia.gov.in/content/sih/en/ams-application/accelerator-program.html?applicationId=69ae994fe4b0b7e5b72b9dd4",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.startupindia.gov.in/content/sih/en/ams-application/accelerator-program.html?applicationId=69ae994fe4b0b7e5b72b9dd4",
+      "title": "Startup India",
+      "closure_signals": [
+        "shut\\s*down"
+      ],
+      "unreachable": false
+    },
+    {
+      "name": "SBC Sprint2Frontier Acceleration Program 2026",
+      "type": "Accelerator",
+      "apply_url": "https://www.startupbootcamp.in/programs/sbc-sprint-2-launch-acceleration-program-2026",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://www.startupbootcamp.in/programs/sbc-sprint-2-launch-acceleration-program-2026",
+      "title": "SBC Sprint2Frontier Acceleration Program 2026 | Startupbootcamp India",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "IHFC-ARTPARK-Siemens MedTech Call 2026",
+      "type": "Grants",
+      "apply_url": "https://ihfc.accubate.app/ext/form/20720/1/apply",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://ihfc.accubate.app/ext/form/20720/1/apply",
+      "title": "Accubate",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "PIEDS x 1811 Labs Gen AI Accelerator",
+      "type": "Accelerator",
+      "apply_url": "https://pieds.accubate.app/ext/form/23485/1/apply",
+      "status": "OK",
+      "http_status": 200,
+      "final_url": "https://pieds.accubate.app/ext/form/23485/1/apply",
+      "title": "Accubate",
+      "closure_signals": [],
+      "unreachable": false
+    },
+    {
+      "name": "Entrepreneurs First (EF) Bangalore Fall 26",
+      "type": "Incubator",
+      "apply_url": "https://apply.joinef.com/app/bangalore-fall/",
+      "status": "HTTP_ERROR",
+      "http_status": 403,
+      "final_url": "https://apply.joinef.com/app/bangalore-fall/",
+      "title": "Attention Required! | Cloudflare",
+      "closure_signals": [],
+      "unreachable": false
+    }
+  ]
+}
