@@ -36,18 +36,6 @@ const ENTITIES = [
     apply_url: "https://ventureoutny.com/"
   },
   {
-    name: "Maine Technology Institute",
-    type: "Incubator",
-    location: "United States",
-    investments: 715,
-    sectors: ["HealthTech", "Energy", "Tech"],
-    app_start: "2026-02-10",
-    app_end: "2026-07-15",
-    is_rolling: false,
-    description: "Seed funding and commercialization support for innovation-led companies.",
-    apply_url: "https://www.mainetechnology.org/"
-  },
-  {
     name: "Innovation Works",
     type: "Incubator",
     location: "United States",
@@ -117,7 +105,7 @@ const ENTITIES = [
     app_end: "2026-05-20",
     is_rolling: false,
     description: "Technology business incubator supporting founders from idea to scale.",
-    apply_url: "https://www.catalystiitmandi.com/"
+    apply_url: "https://www.iitmandicatalyst.in/"
   },
   {
     name: "Sting",
@@ -190,18 +178,6 @@ const ENTITIES = [
     is_rolling: false,
     description: "Health innovation ecosystem supporting biotech and medtech founders.",
     apply_url: "https://www.eurasante.com/"
-  },
-  {
-    name: "SAP.iO",
-    type: "Incubator",
-    location: "United States",
-    investments: 234,
-    sectors: ["Enterprise", "AI", "B2B SaaS"],
-    app_start: "2026-03-01",
-    app_end: "2026-08-10",
-    is_rolling: false,
-    description: "Strategic startup program connecting B2B ventures with SAP customers.",
-    apply_url: "https://sap.io/"
   },
   {
     name: "EvoNexus",
@@ -461,18 +437,6 @@ const ENTITIES = [
     apply_url: "https://www.enterprisesg.gov.sg/financial-support/grants/for-local-companies/enterprise-development-grant"
   },
   {
-    name: "Amazon Saheli Accelerate Season 2",
-    type: "Accelerator",
-    location: "India",
-    investments: null,
-    sectors: ["D2C", "Women", "E-commerce"],
-    app_start: null,
-    app_end: "2026-04-16",
-    is_rolling: false,
-    description: "Free accelerator for women-led businesses with Amazon mentorship and demo day support.",
-    apply_url: "https://www.startupindia.gov.in/bodo/content/sih/en/ams-application/accelerator-program.html?applicationId=690b081ee4b06dfd0cb01970"
-  },
-  {
     name: "Innovate for Impact Challenge 2026",
     type: "Grants",
     location: "Global",
@@ -639,18 +603,6 @@ const ENTITIES = [
     is_rolling: false,
     description: "Incubation pathway for early-stage agri startups and idea-stage founders.",
     apply_url: "https://aideanaarm.accubate.app/ext/form/23426/1/apply"
-  },
-  {
-    name: "MG Developer Program and Grant Season 6.0",
-    type: "Grants",
-    location: "India",
-    investments: null,
-    sectors: ["Mobility", "Automotive", "Innovation"],
-    app_start: null,
-    app_end: "2026-05-01",
-    is_rolling: false,
-    description: "Innovation grant and program for mobility-focused startup solutions.",
-    apply_url: "https://www.startupindia.gov.in/content/sih/en/ams-application/accelerator-program.html?applicationId=69ae994fe4b0b7e5b72b9dd4"
   },
   {
     name: "SBC Sprint2Frontier Acceleration Program 2026",

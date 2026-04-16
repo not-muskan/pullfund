@@ -6,13 +6,13 @@ import type { Deadline, Entity } from "@/lib/types";
 import PullFundLogo from "@/components/PullFundLogo";
 
 type TabType = "All" | Entity["type"];
-type ScopeTab = "Global" | "India" | "All";
+type ScopeTab = "All" | "Global" | "India";
 
 type StatusTag = { label: string; className: string; priority: number };
 type DirectoryPageProps = { initialEntities: Entity[]; todayKey: string };
 
 const TYPE_OPTIONS = ["All", "Incubator", "Accelerator", "Grants", "VC"] as const satisfies readonly TabType[];
-const SCOPE_OPTIONS = ["Global", "India", "All"] as const satisfies readonly ScopeTab[];
+const SCOPE_OPTIONS = ["All", "Global", "India"] as const satisfies readonly ScopeTab[];
 const FEATURED_SECTOR_LIMIT = 10;
 
 function parseDate(value: string | null | undefined): Date | null {
@@ -283,7 +283,7 @@ export default function DirectoryPage({ initialEntities, todayKey }: DirectoryPa
   const today = useMemo(() => getTodayDate(todayKey), [todayKey]);
 
   const [type, setType] = useState<TabType>("All");
-  const [scope, setScope] = useState<ScopeTab>("Global");
+  const [scope, setScope] = useState<ScopeTab>("All");
   const [search, setSearch] = useState("");
   const [sectors, setSectors] = useState<string[]>([]);
   const [showAllSectors, setShowAllSectors] = useState(false);
@@ -343,7 +343,7 @@ export default function DirectoryPage({ initialEntities, todayKey }: DirectoryPa
     () => entities.filter((entity) => getStatus(getPrimaryDeadline(entity, today), today).label === "Rolling").length,
     [entities, today]
   );
-  const clearFiltersVisible = search.length > 0 || sectors.length > 0 || type !== "All" || scope !== "Global";
+  const clearFiltersVisible = search.length > 0 || sectors.length > 0 || type !== "All" || scope !== "All";
 
   return (
     <>
@@ -390,7 +390,7 @@ export default function DirectoryPage({ initialEntities, todayKey }: DirectoryPa
                 className="button-secondary"
                 onClick={() => {
                   setType("All");
-                  setScope("Global");
+                  setScope("All");
                   setSearch("");
                   setSectors([]);
                 }}
