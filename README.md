@@ -18,9 +18,8 @@ PullFund is a lightweight directory for incubators, accelerators, grants, and VC
 
 ## Tech Stack
 
-- Vanilla HTML/CSS/JS frontend
-- Node.js HTTP server backend
-- File-based data (`data.js`) + small helper JSONs in `data/`
+- Next.js (App Router) + React + TypeScript
+- File-based data (`data.js`) + helper JSONs in `data/`
 
 ## Getting Started
 
@@ -31,22 +30,28 @@ PullFund is a lightweight directory for incubators, accelerators, grants, and VC
 ### Run locally
 
 ```bash
-npm start
+npm install
+npm run dev
 ```
 
-App URL: `http://127.0.0.1:3000`  
-Admin URL: `http://127.0.0.1:3000/admin.html`
+App URL: `http://localhost:3000`  
+Admin URL: `http://localhost:3000/admin`
 
 ## Project Structure
 
-- `index.html` - main user-facing UI
-- `app.js` - filtering, rendering, calendar logic
-- `styles.css` - styles
+- `app/` - Next.js routes (UI + API)
+- `components/` - React UI components
+- `lib/` - shared server-side logic (data loading/merging)
+- `styles.css` - global styles (imported by `app/globals.css`)
 - `data.js` - main entity dataset (canonical source of truth)
 - `data/vc-websites.global.json` - helper mapping to fill missing `apply_url` for Global VCs
 - `data/vc-websites.india.json` - helper mapping to fill missing `apply_url` for India VCs
-- `server.js` - API and static file server
-- `admin.html` / `admin.js` - admin verification dashboard
+
+## API
+
+- `GET /api/entities` - list directory entities (merged with verification + availability info when available)
+- `GET /api/verification-report` - read `verification-report.json` (if present)
+- `POST /api/admin/verify` - mark an entity as verified (writes `verification-overrides.json`)
 
 ## Data Model (Entity)
 

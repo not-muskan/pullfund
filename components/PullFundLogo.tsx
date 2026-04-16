@@ -1,0 +1,39 @@
+type PullFundLogoProps = {
+  className?: string;
+  compact?: boolean;
+};
+
+export default function PullFundLogo({ className, compact = false }: PullFundLogoProps) {
+  return (
+    <div className={className}>
+      <svg
+        className="pullfund-logo-mark"
+        viewBox="0 0 48 48"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+      >
+        <rect x="4" y="4" width="40" height="40" rx="14" fill="#17191C" />
+        <path
+          d="M15 30.5V17H23.5C28.2 17 31 19.5 31 23.6C31 27.8 28.2 30.5 23.5 30.5H19.4"
+          stroke="#F4F1E8"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M23.5 23.6H15M33 14L25.5 33.5"
+          stroke="#D5A851"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+
+      <div className="pullfund-logo-text">
+        <span className="pullfund-logo-wordmark">PullFund</span>
+        {!compact ? <span className="pullfund-logo-caption">capital paths for founders</span> : null}
+      </div>
+    </div>
+  );
+}
